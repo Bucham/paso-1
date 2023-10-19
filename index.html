@@ -1,14 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/paso-1/assets/index-3e6a0169.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    
-  </body>
-</html>
+import { createRoot } from 'react-dom/client'
+import './styles.css'
+import App from './App'
+
+createRoot(document.getElementById('root')).render(<App />)
